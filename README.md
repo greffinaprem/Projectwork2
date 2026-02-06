@@ -1,59 +1,64 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Predictive Ransomware Detection Using Machine Learning Models
+The project focuses on detecting ransomware attacks at an early stage by analyzing system and network behavior using machine learning techniques, thereby improving cybersecurity and minimizing potential damage.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Predictive Ransomware Detection Using Machine Learning Models is designed to identify malicious ransomware activity before it fully executes and encrypts system data. Traditional antivirus solutions rely heavily on signature-based detection, which often fails against new or evolving ransomware variants.
+
+This project overcomes these limitations by leveraging behavioral features such as file operations, cryptographic activity, entropy changes, and network behavior. Multiple machine learning models are trained and evaluated to classify system activity as benign or malicious, ensuring accurate and reliable ransomware detection.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+- Behavioral-based ransomware detection approach
+- Implementation of multiple machine learning models
+- High detection accuracy with model consensus
+- Early-stage prediction to prevent file encryption
+- Scalable and modular architecture
+- Low false-positive rate
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Operating System: Windows 10 / Ubuntu (64-bit)
+* Programming Language: Python 3.7 or later
+* Machine Learning Libraries: scikit-learn, NumPy, Pandas
+* Visualization Tools: Matplotlib, Seaborn
+* Development Environment: Jupyter Notebook / VSCode
+* Dataset: Ransomware and benign system behavior dataset
+* Version Control: Git for source code management
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+This architecture illustrates a machine learning–based ransomware detection pipeline that analyzes file activity, process behavior, and network traffic to identify malicious actions.
+By using models like Random Forest, Neural Networks, and SVM, the system classifies activities as normal or suspicious and enables timely data protection and system security.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![WhatsApp Image 2026-02-05 at 10 31 32 AM](https://github.com/user-attachments/assets/6ca06437-0774-4992-b7f5-259b86304f4c)
+
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Machine Learning–Based Ransomware Detection System Performance Dashboard
+This dashboard presents a machine learning–based ransomware detection system with high performance metrics, achieving 99.75% accuracy and 100% precision.
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="880" height="738" alt="image" src="https://github.com/user-attachments/assets/751e6af0-2514-4057-a9be-1deab23867c5" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Curve Comparison of Machine Learning Models for Ransomware Detection
+<img width="869" height="830" alt="image" src="https://github.com/user-attachments/assets/59bfbe00-ad93-40b5-b56c-d9e9ef280c0f" />
+
+99.75% Accuracy - Nearly perfect detection
+100% Precision - Zero false positives!
+95.24% Recall - Catches 95% of ransomware
+100% AUC-ROC - Perfect classification ability
+Note: Performance metrics may vary depending on dataset size and feature selection.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Predictive Ransomware Detection System significantly improves early threat identification by analyzing real-time behavioral indicators rather than relying on known signatures. The use of multiple machine learning models and consensus-based decisions enhances robustness and reliability.
+
+This project contributes to proactive cybersecurity solutions and can be integrated into enterprise systems to strengthen defenses against modern ransomware attacks. It also serves as a foundation for future research in AI-driven malware detection.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
+1. S. Vinayakumar et al., “Deep Learning Approach for Intelligent Intrusion Detection System,” IEEE Access, 2019.
+2. A. Sharma and S. K. Sahay, “Ransomware Detection and Prevention Using Machine Learning,” International Journal of Cyber Security, 2023. 
+3. M. Conti et al., “A Survey on Ransomware Attacks and Mitigation Techniques,” IEEE Communications Surveys & Tutorials.
 
 
